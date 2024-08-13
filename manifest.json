@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Google theme",
+    "description": "Changes google's background",
+    "version": "1.0",
+    "action": {
+        "default_icon": "img.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://www.google.com/*"
+            ]
+        }
+    ]
+}
